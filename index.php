@@ -52,7 +52,7 @@ if (!isset($_SESSION["user"])) {
                 }
 
                 //read all row from database table
-                $sql = "SELECT * FROM clients";
+                $sql = "SELECT * FROM students";
                 $result = $connection->query($sql);
 
                 if(!$result){
